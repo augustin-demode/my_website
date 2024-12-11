@@ -1,0 +1,140 @@
+/* Design the body */
+body {
+    background-color: #f0f8ff; /* Very light blue background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the container */
+.container {
+    width: 700px; /* Set the width of your container */
+    margin: 40px auto; /* Set margins: top/bottom: 40px; left/right: automatic */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Design white cards */
+.card-white {
+    background-color: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Introduction section */
+.intro {
+    text-align: center;
+}
+
+/* Reusable styles */
+.img-circle {
+    border-radius: 50%; /* Make image round */
+}
+
+.profile-picture {
+    max-width: 150px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Styling buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2196F3; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+}
+
+/* Styling headers */
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif; /* Helvetica font for headers */
+}
+
+h1 {
+    color: #4CAF50; /* Green color */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2196F3; /* Blue color */
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #FF9800; /* Orange color */
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+/* Styling links */
+a {
+    color: #2196F3; /* Blue links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4CAF50; /* Green on hover */
+    text-decoration: underline;
+}
+
+/* Inline list for social links */
+.list-inline {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0px; /* No left padding */
+    text-align: center;
+}
+
+.list-inline > li {
+    display: inline; /* Display list items inline */
+    padding: 0px 20px; /* Add left/right padding between list items */
+}
+
+ul li a:hover {
+    color: #FF9800; /* Orange on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+}
